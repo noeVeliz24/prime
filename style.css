@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(147, 147, 199);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+/* Agrega estos estilos para organizar los libros en filas */
+
+
+.book-item {
+    width: 30%; /* Ajusta según sea necesario para tu diseño */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.book-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 6em;
+    left: 0em;
+    width: 11em;
+}
+
+ul.navbar li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-top: 1em solid rgb(15, 14, 14);
+    background: rgb(191, 221, 227);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.form-register {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form-titulo {
+    background: blueviolet;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+    font-weight: 30px;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+
+.contenedor-inputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+#alert {
+    width: 250px;
+    padding: 5px;
+    background-color: #336e87;
+    color: black;
+    display: none;
+}
+
+.input-48 {
+    width: 48%;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+.btn-enviar {
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.book-row {
+    display: flex;
+    justify-content: space-around;
+}
+.form-link {
+    width: 100%;
+    text-align: center;
+    margin: 7px;
+    font-size: 14px;
+}
